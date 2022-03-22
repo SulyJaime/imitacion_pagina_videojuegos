@@ -1,0 +1,478 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: linear-gradient(to bottom, #566573, #788791, #9eabb0, #c7cfd0, #f2f4f4);
+}
+
+/*barra de navegacion*/
+
+.nav{
+    display: grid;
+    grid-template-columns: 70% 30%;
+    align-items: center;
+    z-index: 100;
+    position: fixed;
+    width: 120%;
+    z-index: 10000;
+}
+
+.nav_color{
+    background-image: linear-gradient(to bottom, #b2babb, #99a4a8, #808f96, #6a7a84, #566573);
+    height: 65px;
+    width: 200%;
+    position: fixed;
+    z-index: 500;
+}
+
+.logo_gow_ragnarok img{
+    max-width: 100%;
+    height: 85px;
+    margin-left: 50px;
+}
+
+.listas{
+    margin-top: -30px;
+}
+
+.listas a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-family: url(Font/GODOFWAR.TTF) ;
+    font-weight: bold;
+}
+
+.listas ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+}
+
+.listas ul li a{
+    display: block;
+    padding: 0.1rem 0.5rem;
+    transition: all 0.5 linear;
+}
+
+.listas ul li a:hover{
+    background-color: white;
+    color: gray;
+    border-radius: 2px;  
+}
+
+/*banner*/
+
+.banner{
+    background-image: linear-gradient(to bottom, #f2f4f4, #c7cfd0, #9eabb0, #788791, #566573);
+    background-position-y: center center;
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.dioses1 img{
+    margin-top: 100px;
+    max-width: 100%;
+    height: 450px;
+    margin-bottom: 35px;
+}
+
+.dioses2 img{
+    margin-top: 100px;
+    max-width: 100%;
+    height: 450px;
+    margin-bottom: 35px;
+}
+
+/*comienzo de la informacion de la pagina*/
+
+.protagonista{
+    margin-left: 20px;
+}
+
+.dios1{
+    margin: 30px;
+    margin-top: 5px;
+    background-image: linear-gradient(to left top, #23282a, #202938, #33253e, #4d1a31, #571713);
+    display: grid;
+    grid-template-columns: 75% 25%;
+    max-width: 100%;
+    height: 600px;
+    border-radius: 40px;
+    margin-bottom: 5px;
+}
+
+.dios1 img{
+    width: 350px;
+    height: 500px;
+    margin-top: 45px;
+    border: 5px solid rgba(24, 22, 22, 0.808);
+    border-radius: 10px;
+    margin-left: -20px;
+}
+
+.dios1 h1{
+    margin-top: 20px;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.dios1 p{
+    margin-top: -20px;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+}
+
+.separador{
+    background-color: rgba(255, 255, 255, 0);
+    width: 100%;
+    height: 2px;
+}
+
+.personajes{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+.dios2{
+    background-image: linear-gradient(to left top, #191b1c, #1a2e2f, #214137, #3b5334, #64612f);
+    display: grid;
+    grid-template-columns: 35% 65%;
+    height: 450px;
+    width: 900px;
+    border-radius: 10px;
+}
+
+.dios2 img{
+    width: 250px;
+    height: 400px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 5px solid rgba(30, 36, 34, 0.815);
+}
+
+.dios2 h1{
+    margin-top: 38px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.dios2 p{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-size: 17px;
+}
+
+.dios3{
+    background-image: linear-gradient(to left top, #191b1c, #252829, #333635, #424542, #53534f);
+    display: grid;
+    grid-template-columns: 65% 35%;
+    height: 450px;
+    width: 900px;
+    border-radius: 10px;
+}
+
+.dios3 img{
+    width: 250px;
+    height: 400px;
+    margin-left: 5px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 5px solid rgba(49, 46, 46, 0.829);
+}
+
+
+.dios3 h1{
+    margin-top: 48px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.dios3 p{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+}
+
+.personajes2{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+.dios4{
+    background-image: linear-gradient(to left top, #191b1c, #1b272f, #1e3343, #243e59, #31496f);
+    display: grid;
+    grid-template-columns: 65% 35%;
+    height: 450px;
+    width: 900px;
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.dios4 img{
+    width: 250px;
+    height: 400px;
+    margin-right: 5px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 5px solid rgba(42, 51, 56, 0.815);
+}
+
+.dios4 h1{
+    margin-top: 50px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.dios4 p{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+}
+
+.dios5{
+    background-image: linear-gradient(to right bottom, #191b1c, #162f3c, #0a4262, #0e548a, #3464b1);
+    display: grid;
+    grid-template-columns: 35% 65%;
+    height: 450px;
+    width: 900px;
+    border-radius: 10px;
+}
+
+.dios5 img{
+    width: 250px;
+    height: 400px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 5px solid rgba(49, 46, 46, 0.829);
+}
+
+
+.dios5 h1{
+    margin-top: 42px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.dios5 p{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+}
+
+.personajes3{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+.dios6{
+    background-image: linear-gradient(to right bottom, #191b1c, #1c2b2c, #223b34, #354a35, #545733);
+    display: grid;
+    grid-template-columns: 35% 65%;
+    height: 450px;
+    width: 900px;
+    border-radius: 10px;
+}
+
+.dios6 img{
+    width: 250px;
+    height: 400px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 5px solid rgba(30, 36, 34, 0.815);
+}
+
+.dios6 h1{
+    margin-top: 28px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.dios6 p{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+}
+
+.dios7{
+    background-image: linear-gradient(to left top, #191b1c, #191b20, #201820, #281518, #291608);
+    display: grid;
+    grid-template-columns: 65% 35%;
+    height: 450px;
+    width: 900px;
+    border-radius: 10px;
+}
+
+.dios7 img{
+    width: 250px;
+    height: 400px;
+    margin-left: 5px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 5px solid rgba(49, 46, 46, 0.829);
+}
+
+
+.dios7 h1{
+    margin-top: 50px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.dios7 p{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+}
+
+.personajes4{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+.dios8{
+    background-image: linear-gradient(to left top, #191b1c, #172126, #152732, #122c3e, #10314a);
+    display: grid;
+    grid-template-columns: 65% 35%;
+    height: 450px;
+    width: 900px;
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.dios8 img{
+    width: 250px;
+    height: 400px;
+    margin-right: 5px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 5px solid rgba(30, 36, 34, 0.815);
+}
+
+.dios8 h1{
+    margin-top: 50px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.dios8 p{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+}
+
+.dios9{
+    background-image: linear-gradient(to left top, #191b1c, #192020, #1c2520, #24281e, #302a1d);
+    display: grid;
+    grid-template-columns: 35% 65%;
+    height: 450px;
+    width: 900px;
+    border-radius: 10px;
+}
+
+.dios9 img{
+    width: 250px;
+    height: 400px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 5px solid rgba(49, 46, 46, 0.829);
+}
+
+
+.dios9 h1{
+    margin-top: 37px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.dios9 p{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+}
+
+/*pie de pagina*/
+
+.footer{
+    background-image: linear-gradient(to bottom, #f2f4f4, #c7cfd0, #9eabb0, #788791, #566573);
+}
+
+.footer img{
+    margin-top: 10px;
+    max-width: 100%;
+    height: 70px;
+    margin-left: 700px;
+}
+
+.footer p{
+    color: black;
+    font-size: 18px;
+    font-family: url(Font/GODOFWAR.TTF);
+    margin-left: 700px;
+}

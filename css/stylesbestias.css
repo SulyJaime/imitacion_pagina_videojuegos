@@ -1,0 +1,488 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: linear-gradient(to bottom, #566573, #788791, #9eabb0, #c7cfd0, #f2f4f4);
+}
+
+/*barra de navegacion*/
+
+.nav{
+    display: grid;
+    grid-template-columns: 70% 30%;
+    align-items: center;
+    z-index: 100;
+    position: fixed;
+    width: 120%;
+}
+
+.nav_color{
+    background-image: linear-gradient(to bottom, #b2babb, #99a4a8, #808f96, #6a7a84, #566573);
+    height: 65px;
+    width: 200%;
+    position: fixed;
+}
+
+.logo_gow_ragnarok img{
+    max-width: 100%;
+    height: 85px;
+    margin-left: 50px;
+}
+
+.listas{
+    margin-top: -30px;
+}
+
+.listas a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-family: url(Font/GODOFWAR.TTF) ;
+    font-weight: bold;
+}
+
+.listas ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+}
+
+.listas ul li a{
+    display: block;
+    padding: 0.1rem 0.5rem;
+    transition: all 0.5 linear;
+}
+
+.listas ul li a:hover{
+    background-color: white;
+    color: gray;
+    border-radius: 2px;  
+}
+
+/*banner*/
+
+.banner{
+    background-image: linear-gradient(to bottom, #f2f4f4, #c7cfd0, #9eabb0, #788791, #566573);
+    background-position-y: center center;
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+}
+
+.bestias1 img{
+    margin-top: 100px;
+    max-width: 100%;
+    height: 400px;
+    margin-bottom: 35px;
+}
+
+.bestias2 img{
+    margin-top: 100px;
+    max-width: 100%;
+    height: 400px;
+    margin-bottom: 35px;
+}
+
+.bestias3 img{
+    margin-top: 100px;
+    max-width: 100%;
+    height: 400px;
+    margin-bottom: 35px;
+}
+
+/*info bestias*/
+
+
+.separador{
+    background-color: rgba(255, 255, 255, 0);
+    width: 100%;
+    height: 5px;
+}
+
+
+.bestiario{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+.bestia1{
+    background-image: linear-gradient(to right bottom, #23282a, #212937, #35233a, #4c1a2a, #4f1d07);
+    display: grid;
+    grid-template-columns: 35% 65%;
+    height: 450px;
+    width: 900px;
+    border-radius: 10px;
+}
+
+.bestia1 img{
+    width: 250px;
+    height: 400px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 5px solid rgba(82, 59, 27, 0.815);
+}
+
+.bestia1 h1{
+    margin-top: 40px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.bestia1 p{
+    margin-top: 16px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+}
+
+.bestia2{
+    background-image: linear-gradient(to right bottom, #ccc792, #a49d77, #7c765d, #555144, #302f2d);
+    display: grid;
+    grid-template-columns: 65% 35%;
+    height: 450px;
+    width: 900px;
+    border-radius: 10px;
+}
+
+.bestia2 img{
+    width: 250px;
+    height: 400px;
+    margin-left: 5px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 5px solid rgba(49, 46, 46, 0.829);
+}
+
+
+.bestia2 h1{
+    margin-top: 40px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: black;
+}
+
+.bestia2 p{
+    margin-top: 15px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: black;
+    font-size: 15px;
+}
+
+.bestiario2{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+.bestia3{
+    background-image: linear-gradient(to right bottom, #1f8acc, #456ea2, #4a5679, #404053, #2e2d30);
+    display: grid;
+    grid-template-columns: 65% 35%;
+    height: 450px;
+    width: 900px;
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.bestia3 img{
+    width: 250px;
+    height: 400px;
+    margin-right: 5px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 5px solid rgba(49, 52, 61, 0.815);
+}
+
+.bestia3 h1{
+    margin-top: 50px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.bestia3 p{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+}
+
+.bestia4{
+    background-image: linear-gradient(to right bottom, #3d3a35, #5d5a54, #7e7d76, #a2a199, #c6c7be);
+    display: grid;
+    grid-template-columns: 35% 65%;
+    height: 450px;
+    width: 900px;
+    border-radius: 10px;
+}
+
+.bestia4 img{
+    width: 250px;
+    height: 400px;
+    margin-left: 20px;
+    margin-top: 24px;
+    border-radius: 10px;
+    border: 5px solid rgba(70, 69, 62, 0.829);
+}
+
+
+.bestia4 h1{
+    margin-top: 50px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: black;
+}
+
+.bestia4 p{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: black;
+    font-size: 16px;
+}
+
+.bestiario3{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+.bestia5{
+    background-image: linear-gradient(to right bottom, #ccc792, #a49d77, #7c765d, #555144, #302f2d);
+    display: grid;
+    grid-template-columns: 35% 65%;
+    height: 450px;
+    width: 900px;
+    border-radius: 10px;
+}
+
+.bestia5 img{
+    width: 250px;
+    height: 400px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 5px solid rgba(78, 77, 57, 0.815);
+}
+
+.bestia5 h1{
+    margin-top: 58px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: black;
+}
+
+.bestia5 p{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: black;
+    font-size: 16px;
+}
+
+.bestia6{
+    background-image: linear-gradient(to right bottom, #2e3f47, #3e5d5e, #5b7a6e, #859779, #bbb08a);
+    display: grid;
+    grid-template-columns: 65% 35%;
+    height: 450px;
+    width: 900px;
+    border-radius: 10px;
+}
+
+.bestia6 img{
+    width: 250px;
+    height: 400px;
+    margin-left: 5px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 5px solid rgba(49, 46, 46, 0.829);
+}
+
+
+.bestia6 h1{
+    margin-top: 60px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: black;
+}
+
+.bestia6 p{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: black;
+    font-size: 15px;
+}
+
+.bestiario4{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+.bestia7{
+    background-image: linear-gradient(to right bottom, #2e3f47, #1c3849, #09304b, #00284b, #001e4a);
+    display: grid;
+    grid-template-columns: 65% 35%;
+    height: 450px;
+    width: 900px;
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.bestia7 img{
+    width: 250px;
+    height: 400px;
+    margin-right: 5px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 5px solid rgba(64, 76, 87, 0.815);
+}
+
+.bestia7 h1{
+    margin-top: 68px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.bestia7 p{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+}
+
+.bestia8{
+    background-image: linear-gradient(to right bottom, #2e3f47, #283243, #2d2338, #321223, #2e0300);
+    display: grid;
+    grid-template-columns: 35% 65%;
+    height: 450px;
+    width: 900px;
+    border-radius: 10px;
+}
+
+.bestia8 img{
+    width: 250px;
+    height: 400px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 5px solid rgba(70, 59, 59, 0.829);
+}
+
+
+.bestia8 h1{
+    margin-top: 59px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.bestia8 p{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+}
+
+.bestiario5{
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+
+.bestia9{
+    margin: 30px;
+    margin-top: 5px;
+    background-image: linear-gradient(to right bottom, #3d3a35, #5d5a54, #7e7d76, #a2a199, #c6c7be);
+    display: grid;
+    grid-template-columns: 75% 25%;
+    max-width: 100%;
+    height: 600px;
+    border-radius: 40px;
+    margin-bottom: 10px;
+}
+
+.bestia9 img{
+    width: 350px;
+    height: 500px;
+    margin-top: 45px;
+    border: 5px solid rgba(24, 22, 22, 0.863);
+    border-radius: 10px;
+    margin-left: -20px;
+}
+
+.bestia9 h1{
+    margin-top: 40px;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: black;
+}
+
+.bestia9 p{
+    margin-top: -20px;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: black;
+    font-size: 23px;
+}
+
+/*pie de pagina*/
+
+.footer{
+    background-image: linear-gradient(to bottom, #f2f4f4, #c7cfd0, #9eabb0, #788791, #566573);
+}
+
+.footer img{
+    margin-top: 10px;
+    max-width: 100%;
+    height: 70px;
+    margin-left: 700px;
+}
+
+.footer p{
+    color: black;
+    font-size: 18px;
+    font-family: url(Font/GODOFWAR.TTF);
+    margin-left: 700px;
+}
